@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>    
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+	<title>Index</title>
+	<link rel="stylesheet" href="./index.css"/>   
+</head>
+<body>
+    <article class="articlelist">
+        <p class="consigne"> Afficher la liste complete des cartes avec : </p>
+        <section class="buttonholder">
+            <button class="mybutton" id="xhr" >xhr</button>
+            <button class="mybutton" id="fetch" >fetch</button>
+            <button class="mybutton" id="axios" >axios</button>
+            <button class='mybutton' id="clear">effacer l'affichage </button>
+        </section>
+        <section class="tableholder">
+            
+            <table class="tableofcards" id="tablexhr">
+
+            </table>
+            <table class="tableofcards" id="tablefetch">
+
+
+            </table>
+            <table class="tableofcards" id="tableaxios">
+
+
+            </table>
+        </section>
+    </article>
+
+    <article class="topcards">        
+        <section>
+            <p class="label">Top Armure</p>
+            <div  class="card" id="toparm">
+            <div class="uppercardpart">
+                <p class="level">99</p>
+                <div class="charinfo">
+                    <p class="charname">Heyo</p>
+                    <div class="charstats">
+                        <p>Played :</p>
+                        <p class="play">1</p>
+                        <p>|</p>
+                        <p>Victories</p>
+                        <p class="vict">1</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bottomcardpart">
+                <img src="./resources/img/avatar.png"/>
+                <div class="cardstats">
+                    <p>Power</p>
+                    <p class="pow">1</p>
+                    <p>Attack</p>
+                    <p class="att">1</p>
+                    <p>Defense</p>
+                    <p class="def">1</p>
+                </div>
+            </div>
+            <div class="emptycardspace"></div>
+            </div>
+        </section>
+
+        <section>
+            <p class="label">Top Victoires</p>
+            <div class="card" id="topvict">
+                <div class="uppercardpart">
+                    <p class="level">99</p>
+                    <div class="charinfo">
+                        <p class="charname">Heyo</p>
+                        <div class="charstats">
+                            <p>Played :</p>
+                            <p class="play">1</p>
+                            <p>|</p>
+                            <p>Victories</p>
+                            <p class="vict">1</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottomcardpart">
+                    <img src="./resources/img/avatar.png"/>
+                    <div class="cardstats">
+                        <p>Power</p>
+                        <p class="pow">1</p>
+                        <p>Attack</p>
+                        <p class="att">1</p>
+                        <p>Defense</p>
+                        <p class="def">1</p>
+                    </div>
+                </div>
+                <div class="emptycardspace"></div>
+            </div>
+        </section>
+
+            <section>
+                <p class="label">Top Attack</p>
+                <div class="card" id="topatt">
+                    <div class="uppercardpart">
+                        <p class="level">99</p>
+                        <div class="charinfo">
+                            <p class="charname">Heyo</p>
+                            <div class="charstats">
+                                <p>Played :</p>
+                                <p class="play">1</p>
+                                <p>|</p>
+                                <p>Victories</p>
+                                <p class="vict">1</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bottomcardpart">
+                        <img src="./resources/img/avatar.png"/>
+                        <div class="cardstats">
+                            <p>Power</p>
+                            <p class="pow">1</p>
+                            <p>Attack</p>
+                            <p class="att">1</p>
+                            <p>Defense</p>
+                            <p class="def">1</p>
+                        </div>
+                    </div>
+                    <div class="emptycardspace"></div>
+                    </div>
+                </section>
+
+                <section>
+                    <p class="label">Top Played</p>
+                    <div class="card" id="topplay">
+                        <div class="uppercardpart">
+                            <p class="level">99</p>
+                            <div class="charinfo">
+                                <p class="charname">Heyo</p>
+                                <div class="charstats">
+                                    <p>Played :</p>
+                                    <p class="play">1</p>
+                                    <p>|</p>
+                                    <p>Victories</p>
+                                    <p class="vict">1</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottomcardpart">
+                            <img src="./resources/img/avatar.png"/>
+                            <div class="cardstats">
+                                <p>Power</p>
+                                <p class="pow">1</p>
+                                <p>Attack</p>
+                                <p class="att">1</p>
+                                <p>Defense</p>
+                                <p class="def">1</p>
+                            </div>
+                        </div>
+                        <div class="emptycardspace"></div>
+                        </div>
+                    </section>
+
+    </article>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script language="javascript" type="text/javascript" src="./index.js"></script>
+</body>
+</html>
